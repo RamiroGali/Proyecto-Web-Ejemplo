@@ -42,6 +42,7 @@ echo "segunda línea" >> archivo.txt
 
 **git commit -m "descripción de lo que se hizo"**: Se usa para guardar y describir el progreso o modificación que se desarrolló sobre un proyecto, generando un consecutivo de hash para esa modificación, y que será guardado de manera local.
 
+### Gestión de Ramas y primer push
 **git push**: Se usa para subir los progresos locales a la plataforma del repositorio descrito en la configuración de "origin".
 
 **git branch**: lista las ramas existentes a nivel local
@@ -58,6 +59,7 @@ git branch -vv
 
 **git switch "nombre-rama"**: Se usa para cambiar a otra rama de desarrollo de código sin alterar lo que se desarrolló en otras ramas.
 
+
 **git checkout "nombre-rama"**: cambiar rama de trabajo del usuario.
 
 **git checkout -b "nombre-rama"**: Crear y cambiar de rama del usuario.
@@ -70,6 +72,7 @@ git branch -vv
 
 **git push origin --delete "nombre-rama"**: Elimina una rama de desarrollo en la plataforma de GitHub, GitLab u otro, se usa cuando las actividades y modificaciones en esa rama de desarrollo ya no son necesarios para continuarse, y sus propuestas de modificaciones ya fueron integradas, aceptadas o rechazadas en la rama principal.
 
+### Resolver conflictos por diferencia e integración en versiones de diferentes ramas
 **git merge "nombre-rama"**: Integra los cambios de una rama especificada en la rama actual.
 
 **git diff main..nombre-rama**: Muestra las diferencias entre dos ramas.
