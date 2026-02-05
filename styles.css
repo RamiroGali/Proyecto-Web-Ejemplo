@@ -1,0 +1,75 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background-color: #24292e;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+/* Secciones */
+section {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+section h2 {
+    color: #24292e;
+    border-bottom: 2px solid #e1e4e8;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Lista de proyectos */
+.projects ul {
+    list-style: none;
+    padding: 0;
+}
+
+.projects li {
+    margin: 0.5rem 0;
+}
+
+.projects a {
+    text-decoration: none;
+    color: #0366d6;
+    font-weight: bold;
+}
+
+.projects a:hover {
+    text-decoration: underline;
+}
+
+/* Pie de página */
+footer {
+    background-color: #24292e;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+footer a {
+    color: #58a6ff;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
